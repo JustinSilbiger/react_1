@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #61DAFB);
+    min-height: 100vh;
+}
+
+.container {
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.border {
+    border: 5px solid #3495af;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    height: auto;
+    padding: 1rem 1.5rem;
+    background-color: #21222A;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.nav-logo {
+    width: 40px;
+    margin-right: 7px;
+}
+
+.nav-text {
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.main {
+    padding: 2.5em;
+    background-color: #181922;
+    color: #fff;
+    background-image: url(./assets/react-logo-half.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main-title {
+    margin-bottom: 25px
+}
+
+.main-list {
+    margin-left: 20px;
+}
+
+.main-list-item {
+    margin-bottom: 15px;
+}
+
+.main-list-item::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
